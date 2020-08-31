@@ -5,9 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "cd client && npm start",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server": "nodemon server.js"
   },
   "author": "Rupakshi",
   "license": "MIT",
@@ -15,7 +13,9 @@
     "concurrently": "^5.3.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.2.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
