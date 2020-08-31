@@ -4,6 +4,10 @@ import { Route, Switch } from "react-router-dom";
 import Students from "./Students";
 import Navbar from "./Navbar";
 import Home from "./Home";
+import Tops from "./Tops";
+import Denim from "./Denim";
+import Jackets from "./Jackets";
+import Bags from "./Bags";
 
 function App() {
   return (
@@ -26,6 +30,29 @@ function App() {
           </a>
         </header>
       </div> */}
+        <Route
+          exact
+          path="/tees"
+          render={(routerProps) => <Tops {...routerProps} />}
+        />
+
+<Route
+          exact
+          path="/denim"
+          render={(routerProps) => <Denim {...routerProps} />}
+        />
+
+<Route
+          exact
+          path="/jackets"
+          render={(routerProps) => <Jackets {...routerProps} />}
+        />
+
+<Route
+          exact
+          path="/bags"
+          render={(routerProps) => <Bags {...routerProps} />}
+        />
         <Route
           exact
           path="/"

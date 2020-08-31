@@ -20,3 +20,17 @@ app.get("/api/students", (req, res) => {
   ];
   res.json(students);
 });
+
+app.get("/api/items", (req, res) => {
+  const items = [
+    { id: 1, columbia: "shirt", size: "10" },
+  ];
+  res.json(items);
+});
+
+app.get("/api/accounts", (req, res) => {
+  const accounts = [
+    { id: 1, firstName: "admin", lastName: "admin" },
+  ];
+  res.json(accounts);
+});
