@@ -30,7 +30,7 @@ app.get("/api/items", (req, res) => {
 
 app.get("/api/accounts", (req, res) => {
   const accounts = [
-    { id: 1, firstName: "admin", lastName: "admin" },
+    { id: 1, img: "https://d2h1pu99sxkfvn.cloudfront.net/b0/21446986/797901914_4289c440b80b410a8fd702fc81dfc779/P0.jpg", lastName: "admin" },
   ];
   res.json(accounts);
 });
