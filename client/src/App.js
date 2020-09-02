@@ -31,6 +31,7 @@ function App() {
       </div> */}
         <Route
           exact
+
           path="/tops"
           render={(routerProps) => <Tops {...routerProps} />}
         />
@@ -42,12 +43,15 @@ function App() {
         /> 
 
         <Route
+
           exact
           path="/jackets"
           render={(routerProps) => <Jackets {...routerProps} />}
         />
 
+
         <Route
+
           exact
           path="/bags"
           render={(routerProps) => <Bags {...routerProps} />}

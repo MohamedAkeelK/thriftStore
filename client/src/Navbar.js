@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "./logo.png";
-import { Input,Icon } from 'semantic-ui-react'
+import { Input, Icon } from 'semantic-ui-react'
 
 const NavBar = (props) => {
   return (
@@ -10,24 +10,24 @@ const NavBar = (props) => {
         Free Shipping on Orders over $50
       </div>
       <header className="header">
-      <ul className="main-nav">
-      <li> <Link to="/">
-      <Icon name='search' />
-       </Link></li>
-       
+        <ul className="main-nav">
           <li> <Link to="/">
-          <img className='logoimg' src={logo}></img>
+            <Icon name='search' />
+          </Link></li>
+
+          <li> <Link to="/">
+            <img className='logoimg' src={logo}></img>
+          </Link></li>
+
+          <li> <Link to="/">
+            <Icon name='shopping bag' />
+          </Link></li>
+          <li> <Link to="/">
+            Sign in
        </Link></li>
-     
-       <li> <Link to="/">
-       <Icon name='shopping bag' />
-       </Link></li>
-       <li> <Link to="/">
-       Sign in
-       </Link></li>
-      </ul>
-	</header>
-     
+        </ul>
+      </header>
+
     </div>
   );
 };
