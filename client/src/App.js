@@ -19,7 +19,6 @@ function App() {
         {/* <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-
           <a
             className="App-link"
             href="https://react.js.org"
@@ -32,23 +31,27 @@ function App() {
       </div> */}
         <Route
           exact
-          path="/tees"
+
+          path="/tops"
           render={(routerProps) => <Tops {...routerProps} />}
         />
 
-<Route
+        <Route
           exact
           path="/denim"
           render={(routerProps) => <Denim {...routerProps} />}
-        />
+        /> 
 
-<Route
+        <Route
+
           exact
           path="/jackets"
           render={(routerProps) => <Jackets {...routerProps} />}
         />
 
-<Route
+
+        <Route
+
           exact
           path="/bags"
           render={(routerProps) => <Bags {...routerProps} />}
