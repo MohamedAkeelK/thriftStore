@@ -411,6 +411,8 @@ small {
   margin-top: 2%;
   color: #ffffff;
 }
+
+/* sign nav */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
@@ -420,7 +422,7 @@ small {
   left: 0;
   background-color: #ffffff; /* White */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 140px;
+  padding-top: 150px;
 }
 
 /* The navigation menu links */
