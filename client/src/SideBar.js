@@ -1,9 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Tops from "./Tops";
-import { Route, Switch } from "react-router-dom";
-import Denim from "./Denim";
-import Jackets from "./Jackets";
 
 const SideBar = (props) => {
   return (

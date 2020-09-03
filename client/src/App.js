@@ -8,8 +8,10 @@ import Tops from "./Tops";
 import Denim from "./Denim";
 import Jackets from "./Jackets";
 import Bags from "./Bags";
+import SignIn from "./SignIn";
 import Footer from "./Footer";
 import Banner from "./Banner";
+import HomeContent from "./HomeContent";
 import SideBar from "./SideBar";
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
       <SideBar />
       <Switch>
         <Route exact path="/allUsers" render={(routerProps) => <Students />} />
-
+        
         {/* <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -35,6 +37,7 @@ function App() {
       </div> */}
         <Route
           exact
+
           path="/tops"
           render={(routerProps) => <Tops {...routerProps} />}
         />
@@ -43,15 +46,18 @@ function App() {
           exact
           path="/denim"
           render={(routerProps) => <Denim {...routerProps} />}
-        />
+        /> 
 
         <Route
+
           exact
           path="/jackets"
           render={(routerProps) => <Jackets {...routerProps} />}
         />
 
+
         <Route
+
           exact
           path="/bags"
           render={(routerProps) => <Bags {...routerProps} />}
@@ -60,14 +66,21 @@ function App() {
           exact
           path="/"
           render={(routerProps) => <Home {...routerProps} />}
+          render={(routerProps) => <Banner {...routerProps} />}
+        />
+
+        <Route
+          exact
+          path="/SignIn"
+          render={(routerProps) => <SignIn {...routerProps} />}
         />
       </Switch>
-
-      <Banner />
-
-      <Footer />
+      
+      <HomeContent />
+      < Footer />
     </div>
   );
 }
 
 export default App;
+
