@@ -9,6 +9,7 @@ import Denim from "./Denim";
 import Jackets from "./Jackets";
 import Bags from "./Bags";
 import Footer from "./Footer";
+import Banner from "./Banner";
 
 function App() {
   return (
@@ -63,6 +64,8 @@ function App() {
           render={(routerProps) => <Home {...routerProps} />}
         />
       </Switch>
+      
+      <Banner />
 
       < Footer />
     </div>
