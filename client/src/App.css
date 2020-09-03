@@ -298,6 +298,25 @@ a {
 
 }
 
+/* banner */
+
+.bannerWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 450px;
+}
+
+/* footer */
+
 footer {
   background-color: #b1aeae;
   padding: 30px;
@@ -334,26 +353,6 @@ small {
   color: #ffffff;
 }
 
-/* .footerItems {
-  display: flex;
-  justify-content: space-between;
-} */
-/* .footer {
-  display: flex;
-  flex-direction: row;
-  padding: 12px;
- 
-}
-
-.footer > li {
-  margin-left: 20%;
-}
-
-.footer > h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 
 
