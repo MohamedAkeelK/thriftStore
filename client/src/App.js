@@ -10,14 +10,16 @@ import Jackets from "./Jackets";
 import Bags from "./Bags";
 import Footer from "./Footer";
 import Banner from "./Banner";
+import SideBar from "./SideBar";
 
 function App() {
   return (
     <div>
       <Navbar />
+      <SideBar />
       <Switch>
         <Route exact path="/allUsers" render={(routerProps) => <Students />} />
-        
+
         {/* <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -33,7 +35,6 @@ function App() {
       </div> */}
         <Route
           exact
-
           path="/tops"
           render={(routerProps) => <Tops {...routerProps} />}
         />
@@ -42,18 +43,15 @@ function App() {
           exact
           path="/denim"
           render={(routerProps) => <Denim {...routerProps} />}
-        /> 
+        />
 
         <Route
-
           exact
           path="/jackets"
           render={(routerProps) => <Jackets {...routerProps} />}
         />
 
-
         <Route
-
           exact
           path="/bags"
           render={(routerProps) => <Bags {...routerProps} />}
@@ -64,13 +62,12 @@ function App() {
           render={(routerProps) => <Home {...routerProps} />}
         />
       </Switch>
-      
+
       <Banner />
 
-      < Footer />
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
