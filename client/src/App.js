@@ -8,6 +8,7 @@ import Tops from "./Tops";
 import Denim from "./Denim";
 import Jackets from "./Jackets";
 import Bags from "./Bags";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -62,6 +63,8 @@ function App() {
           render={(routerProps) => <Home {...routerProps} />}
         />
       </Switch>
+
+      < Footer />
     </div>
   );
 }
