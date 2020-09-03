@@ -8,10 +8,6 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-<<<<<<< HEAD
-    "react-router-dom": "^5.2.0",
-=======
->>>>>>> a846c81367574a4502d6321db19deed9777cf5a3
     "react-scripts": "3.4.3",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^1.2.1"
